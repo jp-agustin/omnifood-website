@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
@@ -151,7 +155,6 @@ h2:after {
 
 .main-nav {
   float: right;
-  list-style: none;
   margin-top: 55px;
 }
 
@@ -208,7 +211,6 @@ h3 {
 }
 
 .meals-showcase {
-  list-style: none;
   width: 100%
 }
 
@@ -367,3 +369,56 @@ cite img {
   background-attachment: fixed;
   color: #FFF;
 }
+
+/* --------------------------------------- */
+/* SIGN UP SECTION */
+/* --------------------------------------- */
+
+.section-signup {
+  background-color: #F4F4F4;
+}
+
+.plan-box {
+  width: 90%;
+  background-color: #FFF;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: 0 2px 2px #EFEFEF;
+}
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.plan-box div:first-child {
+  background-color: #FCFCFC;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+  text-align: center;
+  border: none;
+}
+
+.plan-box ul li {
+  padding: 5px 0;
+}
+
+.plan-price {
+  font-size: 3.0em;
+  font-weight: 100;
+  color: #E67E22;
+  margin-bottom: 10px;
+}
+
+.plan-price span {
+  font-size: 0.3em;
+  font-weight: 300;
+}
+
+.plan-meal-price {
+  font-size: 0.8em;
+}
+
