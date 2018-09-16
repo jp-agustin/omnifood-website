@@ -52,4 +52,20 @@ $(document).ready(function() {
     offset: '50%'
   });
 
+  // Mobile navigation
+  $(".mobile-nav-icon").click(function() {
+    let nav = $(".main-nav");
+    let icon = $(".mobile-nav-icon i");
+
+    nav.slideToggle(200);
+
+    if (icon.hasClass("fa-bars")) {
+      icon.removeClass("fa-bars");
+      icon.addClass("fa-times");
+    } else {
+      icon.removeClass("fa-times");
+      icon.addClass("fa-bars");
+    }
+  });
+
 });

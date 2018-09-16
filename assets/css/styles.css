@@ -212,6 +212,20 @@ header {
   border-bottom: 2px solid #E67E22;
 }
 
+/* MOBILE NAVIGATION */
+
+.mobile-nav-icon {
+  display: none;
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #FFF;
+}
+
 /* STICKY NAVIGATION */
 .sticky {
   position: fixed;
