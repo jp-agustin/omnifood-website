@@ -40,7 +40,7 @@
 
   .plan-price { font-size: 2.5em; }
 
-  .contact-form { width: 80%; }
+  .contact-form { width: 90%; }
 }
 
 /* Devices of 481 to 767px */
@@ -114,6 +114,20 @@
   }
 
   .plan-price { font-size: 3.0em; }
+
+  form .row:last-of-type .col:first-child { display: none; }
+
+  .map-box { height: auto; }
+
+  .form-box {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 30px 0;
+  }
+
+  #map { height: 300px; }
+
 }
 
 /* Devices of 0 to 480px */
