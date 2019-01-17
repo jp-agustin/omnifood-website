@@ -12,3 +12,5 @@ Sample website using the following front-end technologies:
   * jQuery
   * Waypoints
   * gMaps
+  
+*Credits: A project website under the 'Build Responsive websites' course by Jonas Schmedtmann.*
